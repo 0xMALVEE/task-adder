@@ -10,16 +10,30 @@
   <title>Task Adder</title>
 </head>
 <body>
-  
-
-
-
-
-
-
-  
-  
+<div id="container" class="container">
+<!-- Take Input -->
+  <div id="input">
+    <h1>Add Task</h1>
+    <form action="">
+      <input type="text">
+      <button class="btn">ADD</button>
+    </form>
+  </div>
+<!-- Show Data -->
+  <div id="show">
+      <ul class="collection with-header">
+        <li class="collection-header">
+          <h4>Tasks</h4>
+        </li>
+        <li class="collection-item">
+          <div>Task Item<a href="#!" class="secondary-content"><i class="material-icons">delete</i></a></div>
+        </li>
+      </ul>
+      <button class="btn clear">Clear</button>
+  </div>
+</div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="./app.js"></script>
 </body>
 </html>
